@@ -17,3 +17,7 @@ Data Dictionary
 - ca - number of major vessels (0-4) colored by flourosopy
 - thal - thalium stress result
 - target - have disease or not (1=yes, 0=no) (= the predicted attribute)
+
+### Conclusion
+
+This project aims to study the risk of heart disease based on patients' age, sex and other clinical parameters. Data preprocessing techniques such as standardization, transformation and winsorization are applied to numerical variables, and chi-square test is applied to select related categorical features. A number of ML models (LogisticRegression, SVC, RandomForest, GaussianProcess and XGBoost) are used as baseline models. Hyperparameters are fine tuned for SVC. The test accuracy is increased from 0.8313 to 0.8442. It is also shown that without feature selection, the test accuracy drops to 0.7383.
